@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Camila Campbell's Tableau marketing report exploring store sales, profit, customer behavior, forecasts, and business recommendations.">
+  <meta name="theme-color" content="#F3EBDD">
+  <title>Business Analytics Tableau Marketing Report | Camila Campbell</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="template-header">
+    <nav class="page-shell template-nav" aria-label="Project navigation">
+      <a class="template-brand" href="./index.html">Camila Campbell</a>
+      <a href="./index.html#projects">Back to selected work <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main class="page-shell case-study" id="main">
+    <a class="template-back" href="./index.html#projects">← Selected work</a>
+    <header class="case-study-hero">
+      <p class="eyebrow">BUSINESS ANALYTICS · COURSE PROJECT · DECEMBER 2025</p>
+      <h1>Business Analytics<br><em>Tableau Marketing Report</em></h1>
+      <p class="case-study-deck">An analysis of store sales and profit trends, category performance, and potential management decisions, presented through interactive Tableau dashboards and a stakeholder-style report.</p>
+      <dl class="template-meta">
+        <div><dt>Course</dt><dd>CAI 3801-001 · Artificial Intelligence and Analytics</dd></div>
+        <div><dt>Term</dt><dd>Fall 2025</dd></div>
+        <div><dt>Tools</dt><dd>Tableau · Data Analysis · Data Visualization · Business Reporting</dd></div>
+        <div><dt>Deliverables</dt><dd>8-page report · 5-minute Teams presentation</dd></div>
+      </dl>
+    </header>
+
+    <div class="dashboard-gallery" aria-label="Tableau dashboard screenshots">
+      <figure class="dashboard-figure"><img src="./sales-overview-dashboard.png" alt="Sales Overview Tableau dashboard with sales, profit, and quantity KPIs, category analysis, state profitability, and a Pareto chart." width="682" height="412"><figcaption>Sales Overview · performance KPIs and category analysis</figcaption></figure>
+      <figure class="dashboard-figure"><img src="./sales-strategy-dashboard.png" alt="Sales Strategy Tableau dashboard with a profit forecast, regional loss drivers, discount impact analysis, and business recommendations." width="680" height="410"><figcaption>Sales Strategy · forecast, loss drivers, and discount impact</figcaption></figure>
+    </div>
+
+    <div class="case-study-layout">
+      <aside class="case-study-index" aria-label="Case study sections">
+        <p class="eyebrow">IN THIS CASE STUDY</p>
+        <nav>
+          <a href="#overview">Project overview</a>
+          <a href="#problem">Business question</a>
+          <a href="#analysis">Data &amp; analysis</a>
+          <a href="#tools">Tools used</a>
+          <a href="#visualizations">Visualizations</a>
+          <a href="#insights">Key insights</a>
+          <a href="#recommendations">Recommendations</a>
+          <a href="#deliverables">Deliverables</a>
+          <a href="#reflection">Reflection</a>
+        </nav>
+      </aside>
+      <div class="case-study-content">
+        <section id="overview">
+          <p class="eyebrow">01 / OVERVIEW</p>
+          <h2>Project overview</h2>
+          <p>For CAI 3801-001 in Fall 2025, I used Tableau to analyze the Store Dataset, a transactional dataset provided for the project. I built visualizations and dashboards to examine sales, profit, product performance, regional patterns, historical trends, and possible management decisions.</p>
+        </section>
+        <section id="problem">
+          <p class="eyebrow">02 / BUSINESS QUESTION</p>
+          <h2>Business question / problem</h2>
+          <p>The project focused on three marketing questions: Which products contribute the most to sales? What factors influence sales over time? How can the company boost customer engagement to increase overall sales?</p>
+        </section>
+        <section id="analysis">
+          <p class="eyebrow">03 / DATA &amp; ANALYSIS</p>
+          <h2>Data &amp; analysis</h2>
+          <p>The Store Dataset contains 9,994 rows and 27 columns, including Total Sales, Total Profit, Total Costs, Sub-Category, and Region. The report describes the data as structured and free of null values, formatting inconsistencies, and duplicate entries.</p>
+          <p>The analysis included descriptive and diagnostic views of monthly sales, profit, and quantity sold against the previous year; category and regional performance; profit loss drivers; a next-year profit forecast based on historical trends; and a discount what-if scenario. The report assumes prices and quantities are recorded correctly, and that competitor activity and economic shifts do not significantly distort trends.</p>
+        </section>
+        <section id="tools">
+          <p class="eyebrow">04 / TOOLS</p>
+          <h2>Tools used</h2>
+          <ul class="case-study-tags"><li>Tableau</li><li>Data Analysis</li><li>Data Visualization</li><li>Business Reporting</li><li>Interactive Calculations</li></ul>
+        </section>
+        <section id="visualizations">
+          <p class="eyebrow">05 / VISUALIZATIONS</p>
+          <h2>Visualizations</h2>
+          <p>I revised and refined more than five visualizations and organized them into two dashboard pages. Sales Overview presents sales, profit, and quantity KPIs; Strategic Overview brings together deeper analysis, including customer segmentation and discount what-if scenarios. Filters support exploration by region, segment, product category, and year.</p>
+          <div class="visual-placeholder-grid">
+            <figure class="visual-figure"><img src="./total-sales.png" alt="Monthly Total Sales KPI line chart comparing the selected year with the previous year; displayed total is $732K." width="590" height="344" loading="lazy"><figcaption>Monthly Total Sales KPI</figcaption></figure>
+            <figure class="visual-figure"><img src="./total-profit.png" alt="Monthly Total Profit KPI line chart comparing the selected year with the previous year; displayed total is $94K." width="554" height="320" loading="lazy"><figcaption>Monthly Total Profit KPI</figcaption></figure>
+            <figure class="visual-figure"><img src="./total-quantity-sold.png" alt="Monthly Total Quantity Sold KPI line chart comparing the selected year with the previous year; displayed quantity is 12.4K." width="540" height="308" loading="lazy"><figcaption>Monthly Quantity Sold KPI</figcaption></figure>
+            <figure class="visual-figure"><img src="./profit-by-product-category.png" alt="Tableau bar visualization of profit by product category and sub-category, including Furniture and Tables." width="686" height="392" loading="lazy"><figcaption>Profit by Product Category · drill-down</figcaption></figure>
+            <figure class="visual-figure"><img src="./pareto-chart.png" alt="Pareto chart ranking product sub-categories by total sales with a cumulative percentage curve and 80 percent reference line." width="602" height="376" loading="lazy"><figcaption>Sales Category Pareto Chart</figcaption></figure>
+            <figure class="visual-figure"><img src="./top-10-states-profit.png" alt="Treemap of the top 10 states by total profit, with tile labels for state sales and profit." width="686" height="350" loading="lazy"><figcaption>Top 10 States by Total Profit</figcaption></figure>
+            <figure class="visual-figure"><img src="./top-5-loss-drivers-region.png" alt="Horizontal bar chart of the top five loss drivers in each region, with filters for region and sub-category." width="640" height="330" loading="lazy"><figcaption>Top 5 Loss Drivers per Region</figcaption></figure>
+            <figure class="visual-figure"><img src="./profit-forecast.png" alt="Profit forecasting line chart showing historical profit and a next-year forecast with a shaded confidence interval; MAE shown as .51." width="692" height="410" loading="lazy"><figcaption>Profit Forecasting</figcaption></figure>
+            <figure class="visual-figure"><img src="./discount-impact.png" alt="Discount Impact what-if chart comparing total profit and adjusted profit by product sub-category, with region and discount-rate controls." width="774" height="392" loading="lazy"><figcaption>Discount Impact · what-if analysis</figcaption></figure>
+          </div>
+        </section>
+        <section id="insights">
+          <p class="eyebrow">06 / FINDINGS</p>
+          <h2>Key insights</h2>
+          <ul class="case-study-findings">
+            <li><strong>Furniture had the lowest profit</strong> among categories in the drill-down; Tables were the largest source of losses within Furniture.</li>
+            <li>The monthly KPI views compare sales, profit, and quantity sold with the previous year to reveal changes and seasonal patterns. The report recommends using those patterns for planning.</li>
+            <li>The category Pareto chart ranks categories by sales contribution. The report uses the 80/20 principle to identify categories to prioritize, but does not state category-level percentages.</li>
+            <li>The treemap presents the top 10 most profitable states, while the loss-driver chart compares the largest loss drivers across regions.</li>
+            <li>The predictive views include a profit forecast for the next year based on historical trends and a discount scenario showing how discount changes affect profit.</li>
+          </ul>
+        </section>
+        <section id="recommendations">
+          <p class="eyebrow">07 / NEXT STEPS</p>
+          <h2>Recommendations</h2>
+          <p>The report's analysis points to several practical actions:</p>
+          <ol class="recommendation-placeholders">
+            <li>Review the Furniture strategy, beginning with Tables, and assess whether approaches used in more profitable categories can be adapted.</li>
+            <li>Use monthly sales, profit, quantity, and forecast patterns to plan inventory and allocate resources around changing demand while monitoring costs and profitability.</li>
+            <li>Prioritize high-contributing sales categories and profitable states for marketing and operations, while investigating the largest region-specific loss drivers.</li>
+          </ol>
+        </section>
+        <section id="deliverables">
+          <p class="eyebrow">08 / COMMUNICATION</p>
+          <h2>Deliverables</h2>
+          <ul class="deliverables-list">
+            <li><span>01</span><p>An 8-page analytical report.</p></li>
+            <li><span>02</span><p>A 5-minute Microsoft Teams presentation summarizing insights and recommendations to a simulated stakeholder audience.</p></li>
+          </ul>
+          <div class="deliverable-actions">
+            <a class="button button-primary presentation-link" href="https://youtu.be/LPBRIT06DmM?si=7UiQMpyYGnfbJQ20" target="_blank" rel="noopener noreferrer">Watch presentation <span aria-hidden="true">↗</span></a>
+            <a class="button button-outline report-download" href="./business-analytics-project-report-campbell.docx" download>Download report <span aria-hidden="true">↓</span></a>
+          </div>
+        </section>
+        <section id="reflection">
+          <p class="eyebrow">09 / LOOKING BACK</p>
+          <h2>Reflection / what I learned</h2>
+          <p>This project gave me hands-on practice turning raw data into business strategies. I developed my skills in interactive visualizations and calculations, interpreting trends, and communicating insights. Designing dashboards that presented the information clearly was a challenge; working through it strengthened my attention to detail and confidence in making data-informed recommendations.</p>
+        </section>
+        <div class="case-study-links"><span>Tableau dashboard link: to be added, if shareable</span><span>Project file or repository link: to be added, if available</span></div>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="page-shell footer-bottom"><span>© 2026 Camila Campbell</span><a class="case-footer-link" href="./index.html#projects">Return to selected work ↑</a></div></footer>
+</body>
+</html>
